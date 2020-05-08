@@ -5,7 +5,7 @@ namespace BerlinClock.Api
 {
     public interface IBerlinClockApi : IDisposable
     {
-        event Action OnTimerCheck;
+        event Action<DateTime> OnUpdateBerlinClock;
         event Action<Row4LightsModel> OnRow5HoursChanged;
         event Action<Row4LightsModel> OnRow1HourChanged;
         event Action<Row11LightsModel> OnRow5MinutesChanged;

@@ -32,9 +32,8 @@ namespace BerlinClock.Api
 
         private Timer _timer;
         private TimeSpan _timeBetweenCustomAndNowTime;
-        private int _startMinute;
 
-        public event Action OnTimerCheck;
+        public event Action<DateTime> OnUpdateBerlinClock;
         public event Action<Row4LightsModel> OnRow5HoursChanged;
         public event Action<Row4LightsModel> OnRow1HourChanged;
         public event Action<Row11LightsModel> OnRow5MinutesChanged;
@@ -59,7 +58,6 @@ namespace BerlinClock.Api
 
         private void OnTimerElapsed(object sender, ElapsedEventArgs e)
         {
-            this.OnTimerCheck?.Invoke();
             this.UpdateBerlinClock();
         }
 
@@ -70,6 +68,7 @@ namespace BerlinClock.Api
             _row1Hour.UpdateValue(time.Hour);
             _row5Minutes.UpdateValue(time.Minute);
             _row1Minute.UpdateValue(time.Minute);
+            this.OnUpdateBerlinClock?.Invoke(time);
         }
     }
 }
