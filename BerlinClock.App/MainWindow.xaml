@@ -6,7 +6,67 @@
         xmlns:local="clr-namespace:BerlinClock.App"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid ShowGridLines="True">
+        <Grid.Resources>
+            <Style TargetType="{x:Type Ellipse}">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Opacity" Value="0.5"/>
+            </Style>
+            <Style TargetType="{x:Type Rectangle}">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="Opacity" Value="0.5"/>
+            </Style>
+            
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Ellipse Name="Lamp" Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" Fill="Yellow" Stroke="Black" StrokeThickness="2" />
+        
+        <Rectangle Name="R5h1" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R5h2" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R5h3" Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R5h4" Grid.Row="1" Grid.Column="9" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+
+        <Rectangle Name="R1h1" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1h2" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1h3" Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1h4" Grid.Row="2" Grid.Column="9" Grid.ColumnSpan="3" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+
+        <Rectangle Name="R5m1" Grid.Row="3" Grid.Column="0" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m2" Grid.Row="3" Grid.Column="1" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m3" Grid.Row="3" Grid.Column="2" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m4" Grid.Row="3" Grid.Column="3" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m5" Grid.Row="3" Grid.Column="4" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m6" Grid.Row="3" Grid.Column="5" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m7" Grid.Row="3" Grid.Column="6" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m8" Grid.Row="3" Grid.Column="7" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m9" Grid.Row="3" Grid.Column="8" Fill="Red" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m10" Grid.Row="3" Grid.Column="9" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+        <Rectangle Name="R5m11" Grid.Row="3" Grid.Column="10" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="5" RadiusY="5"/>
+
+        <Rectangle Name="R1m1" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1m2" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="3" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1m3" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="3" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
+        <Rectangle Name="R1m4" Grid.Row="4" Grid.Column="9" Grid.ColumnSpan="3" Fill="Orange" Stroke="Black" StrokeThickness="2" RadiusX="20" RadiusY="20"/>
         
     </Grid>
 </Window>

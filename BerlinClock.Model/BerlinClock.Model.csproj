@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClockTime.cs" />
     <Compile Include="Row11LightsModel.cs" />
     <Compile Include="Row4LightsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
