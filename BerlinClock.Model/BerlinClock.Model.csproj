@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB010298-22B4-409F-800A-12E80405C722}</ProjectGuid>
+    <ProjectGuid>{DB09D515-F40F-4CB9-87C9-DE4CA573E24A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BerlinClock.Test</RootNamespace>
-    <AssemblyName>BerlinClock.Test</AssemblyName>
+    <RootNamespace>BerlinClock.Model</RootNamespace>
+    <AssemblyName>BerlinClock.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,18 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ClockTime.cs" />
+    <Compile Include="Row11LightsModel.cs" />
+    <Compile Include="Row4LightsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BerlinClock.Api\BerlinClock.Api.csproj">
-      <Project>{300ee3dc-2563-44c8-b674-b4eb162ebc99}</Project>
-      <Name>BerlinClock.Api</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BerlinClock.Model\BerlinClock.Model.csproj">
-      <Project>{db09d515-f40f-4cb9-87c9-de4ca573e24a}</Project>
-      <Name>BerlinClock.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

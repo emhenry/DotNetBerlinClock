@@ -52,6 +52,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +92,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BerlinClock.Api\BerlinClock.Api.csproj">
+      <Project>{300ee3dc-2563-44c8-b674-b4eb162ebc99}</Project>
+      <Name>BerlinClock.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BerlinClock.Model\BerlinClock.Model.csproj">
+      <Project>{db09d515-f40f-4cb9-87c9-de4ca573e24a}</Project>
+      <Name>BerlinClock.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
