@@ -21,9 +21,8 @@ namespace BerlinClock.Api
             DateTime now = DateTime.Now;
             _timeBetweenCustomAndNowTime = new TimeSpan(startHour - now.Hour, startMinute - now.Minute, 0);
             _timer = new Timer(TimerEverySecondCallback, null, 0, 1000);
-            // Set the string time value
-            DateTime time = DateTime.Now + _timeBetweenCustomAndNowTime;
-            this.OnShortTimeUpdate(time.ToShortTimeString());
+            // Set the string time value            
+            this.OnShortTimeUpdate($"{startHour.ToString("00")}:{startMinute.ToString("00")}");
         }
 
         public void Stop()
