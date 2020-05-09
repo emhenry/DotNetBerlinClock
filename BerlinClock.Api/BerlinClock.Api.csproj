@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BerlinClockApi.cs" />
     <Compile Include="IBerlinClockApi.cs" />
+    <Compile Include="ISystemTimeApi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rows\IRow11Lights.cs" />
     <Compile Include="Rows\IRow4Lights.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="Rows\Row5Hours.cs" />
     <Compile Include="Rows\Row4Lights.cs" />
     <Compile Include="Rows\Row5Minutes.cs" />
+    <Compile Include="SystemTimeApi.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BerlinClock.Model\BerlinClock.Model.csproj">
