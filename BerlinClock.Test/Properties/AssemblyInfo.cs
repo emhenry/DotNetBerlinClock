@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BerlinClock")]
+[assembly: AssemblyTitle("BerlinClock.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TEST COMPANY")]
-[assembly: AssemblyProduct("BerlinClock")]
-[assembly: AssemblyCopyright("Copyright © TEST COMPANY 2016")]
+[assembly: AssemblyCompany("Emmanuel Henry")]
+[assembly: AssemblyProduct("BerlinClock.Test")]
+[assembly: AssemblyCopyright("Emmanuel Henry")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

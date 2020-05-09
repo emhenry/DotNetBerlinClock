@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("BerlinClock.Model")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Emmanuel Henry")]
 [assembly: AssemblyProduct("BerlinClock.Model")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2020")]
+[assembly: AssemblyCopyright("Emmanuel Henry")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

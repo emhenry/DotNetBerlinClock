@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("BerlinClock.App")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Emmanuel Henry")]
 [assembly: AssemblyProduct("BerlinClock.App")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2020")]
+[assembly: AssemblyCopyright("Emmanuel Henry")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
