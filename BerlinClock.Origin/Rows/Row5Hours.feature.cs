@@ -31,8 +31,8 @@ namespace BerlinClock.Rows
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Row5Hours", "In order to avoid mistakes\r\nI check if the first row (row 5 hours) of the Berline" +
-                    "r clock", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Row5Hours", "In order to avoid mistakes\r\nI check the first row (row 5 hours) of the Berliner c" +
+                    "lock", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,19 +70,19 @@ namespace BerlinClock.Rows
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Row 5 Hours at 00:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 00:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Row5hours")]
-        public virtual void Row5HoursAt0000()
+        public virtual void RowFiveHoursAt0000()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Row 5 Hours at 00:00", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 00:00", new string[] {
                         "Row5hours"});
-#line 7
+#line 6
 this.ScenarioSetup(scenarioInfo);
+#line 7
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
-testRunner.When("the hour for RowFivehours is \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -94,24 +94,24 @@ testRunner.When("the hour for RowFivehours is \"0\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 10
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table1, "Then ");
+#line 9
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table1, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 01:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 01:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0100()
+        public virtual void RowFiveHoursAt0100()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 01:00", ((string[])(null)));
-#line 14
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 01:00", ((string[])(null)));
+#line 13
 this.ScenarioSetup(scenarioInfo);
+#line 14
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 16
-testRunner.When("the hour for RowFivehours is \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -123,24 +123,24 @@ testRunner.When("the hour for RowFivehours is \"1\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 17
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table2, "Then ");
+#line 16
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table2, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 02:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 02:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0200()
+        public virtual void RowFiveHoursAt0200()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 02:00", ((string[])(null)));
-#line 21
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 02:00", ((string[])(null)));
+#line 20
 this.ScenarioSetup(scenarioInfo);
+#line 21
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 22
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 23
-testRunner.When("the hour for RowFivehours is \"2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -152,24 +152,24 @@ testRunner.When("the hour for RowFivehours is \"2\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 24
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table3, "Then ");
+#line 23
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table3, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 03:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 03:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0300()
+        public virtual void RowFiveHoursAt0300()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 03:00", ((string[])(null)));
-#line 28
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 03:00", ((string[])(null)));
+#line 27
 this.ScenarioSetup(scenarioInfo);
+#line 28
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 29
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 30
-testRunner.When("the hour for RowFivehours is \"3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -181,24 +181,24 @@ testRunner.When("the hour for RowFivehours is \"3\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 31
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table4, "Then ");
+#line 30
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table4, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 04:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 04:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0400()
+        public virtual void RowFiveHoursAt0400()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 04:00", ((string[])(null)));
-#line 35
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 04:00", ((string[])(null)));
+#line 34
 this.ScenarioSetup(scenarioInfo);
+#line 35
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 36
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 37
-testRunner.When("the hour for RowFivehours is \"4\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"4\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -210,24 +210,24 @@ testRunner.When("the hour for RowFivehours is \"4\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 38
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table5, "Then ");
+#line 37
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table5, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 05:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 05:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0500()
+        public virtual void RowFiveHoursAt0500()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 05:00", ((string[])(null)));
-#line 42
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 05:00", ((string[])(null)));
+#line 41
 this.ScenarioSetup(scenarioInfo);
+#line 42
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 43
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 44
-testRunner.When("the hour for RowFivehours is \"5\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"5\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -239,24 +239,24 @@ testRunner.When("the hour for RowFivehours is \"5\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 45
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table6, "Then ");
+#line 44
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table6, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 06:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 06:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0600()
+        public virtual void RowFiveHoursAt0600()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 06:00", ((string[])(null)));
-#line 49
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 06:00", ((string[])(null)));
+#line 48
 this.ScenarioSetup(scenarioInfo);
+#line 49
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 50
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 51
-testRunner.When("the hour for RowFivehours is \"6\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"6\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -268,24 +268,24 @@ testRunner.When("the hour for RowFivehours is \"6\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 52
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table7, "Then ");
+#line 51
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table7, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 07:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 07:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0700()
+        public virtual void RowFiveHoursAt0700()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 07:00", ((string[])(null)));
-#line 56
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 07:00", ((string[])(null)));
+#line 55
 this.ScenarioSetup(scenarioInfo);
+#line 56
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 57
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 58
-testRunner.When("the hour for RowFivehours is \"7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -297,24 +297,24 @@ testRunner.When("the hour for RowFivehours is \"7\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 59
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table8, "Then ");
+#line 58
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table8, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 08:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 08:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0800()
+        public virtual void RowFiveHoursAt0800()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 08:00", ((string[])(null)));
-#line 63
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 08:00", ((string[])(null)));
+#line 62
 this.ScenarioSetup(scenarioInfo);
+#line 63
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 64
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 65
-testRunner.When("the hour for RowFivehours is \"8\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"8\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -326,24 +326,24 @@ testRunner.When("the hour for RowFivehours is \"8\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 66
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table9, "Then ");
+#line 65
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table9, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 09:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 09:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt0900()
+        public virtual void RowFiveHoursAt0900()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 09:00", ((string[])(null)));
-#line 70
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 09:00", ((string[])(null)));
+#line 69
 this.ScenarioSetup(scenarioInfo);
+#line 70
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 71
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 72
-testRunner.When("the hour for RowFivehours is \"9\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"9\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -355,24 +355,24 @@ testRunner.When("the hour for RowFivehours is \"9\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 73
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table10, "Then ");
+#line 72
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table10, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 10:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 10:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1000()
+        public virtual void RowFiveHoursAt1000()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 10:00", ((string[])(null)));
-#line 77
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 10:00", ((string[])(null)));
+#line 76
 this.ScenarioSetup(scenarioInfo);
+#line 77
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 78
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 79
-testRunner.When("the hour for RowFivehours is \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -384,24 +384,24 @@ testRunner.When("the hour for RowFivehours is \"10\"", ((string)(null)), ((TechT
                         "true",
                         "false",
                         "false"});
-#line 80
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table11, "Then ");
+#line 79
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table11, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 11:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 11:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1100()
+        public virtual void RowFiveHoursAt1100()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 11:00", ((string[])(null)));
-#line 84
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 11:00", ((string[])(null)));
+#line 83
 this.ScenarioSetup(scenarioInfo);
+#line 84
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 85
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 86
-testRunner.When("the hour for RowFivehours is \"11\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"11\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -413,24 +413,24 @@ testRunner.When("the hour for RowFivehours is \"11\"", ((string)(null)), ((TechT
                         "true",
                         "false",
                         "false"});
-#line 87
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table12, "Then ");
+#line 86
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table12, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 12:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 12:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1200()
+        public virtual void RowFiveHoursAt1200()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 12:00", ((string[])(null)));
-#line 91
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 12:00", ((string[])(null)));
+#line 90
 this.ScenarioSetup(scenarioInfo);
+#line 91
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 92
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 93
-testRunner.When("the hour for RowFivehours is \"12\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"12\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -442,24 +442,24 @@ testRunner.When("the hour for RowFivehours is \"12\"", ((string)(null)), ((TechT
                         "true",
                         "false",
                         "false"});
-#line 94
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table13, "Then ");
+#line 93
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table13, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 13:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 13:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1300()
+        public virtual void RowFiveHoursAt1300()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 13:00", ((string[])(null)));
-#line 98
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 13:00", ((string[])(null)));
+#line 97
 this.ScenarioSetup(scenarioInfo);
+#line 98
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 99
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 100
-testRunner.When("the hour for RowFivehours is \"13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -471,24 +471,24 @@ testRunner.When("the hour for RowFivehours is \"13\"", ((string)(null)), ((TechT
                         "true",
                         "false",
                         "false"});
-#line 101
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table14, "Then ");
+#line 100
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table14, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 14:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 14:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1400()
+        public virtual void RowFiveHoursAt1400()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 14:00", ((string[])(null)));
-#line 105
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 14:00", ((string[])(null)));
+#line 104
 this.ScenarioSetup(scenarioInfo);
+#line 105
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 106
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 107
-testRunner.When("the hour for RowFivehours is \"14\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowFiveHours is \"14\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -500,24 +500,24 @@ testRunner.When("the hour for RowFivehours is \"14\"", ((string)(null)), ((TechT
                         "true",
                         "false",
                         "false"});
-#line 108
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table15, "Then ");
+#line 107
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table15, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 15:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 15:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1500()
+        public virtual void RowFiveHoursAt1500()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 15:00", ((string[])(null)));
-#line 113
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 15:00", ((string[])(null)));
+#line 111
 this.ScenarioSetup(scenarioInfo);
-#line 114
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 115
-testRunner.When("the hour for RowFivehours is \"15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 112
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 113
+ testRunner.When("the hour for RowFiveHours is \"15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table16 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -529,24 +529,24 @@ testRunner.When("the hour for RowFivehours is \"15\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "false"});
-#line 116
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table16, "Then ");
+#line 114
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table16, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 16:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 16:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1600()
+        public virtual void RowFiveHoursAt1600()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 16:00", ((string[])(null)));
-#line 120
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 16:00", ((string[])(null)));
+#line 118
 this.ScenarioSetup(scenarioInfo);
-#line 121
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 122
-testRunner.When("the hour for RowFivehours is \"16\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 119
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 120
+ testRunner.When("the hour for RowFiveHours is \"16\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table17 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -558,24 +558,24 @@ testRunner.When("the hour for RowFivehours is \"16\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "false"});
-#line 123
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table17, "Then ");
+#line 121
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table17, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 17:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 17:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1700()
+        public virtual void RowFiveHoursAt1700()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 17:00", ((string[])(null)));
-#line 127
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 17:00", ((string[])(null)));
+#line 125
 this.ScenarioSetup(scenarioInfo);
-#line 128
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 129
-testRunner.When("the hour for RowFivehours is \"17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 126
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 127
+ testRunner.When("the hour for RowFiveHours is \"17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table18 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -587,24 +587,24 @@ testRunner.When("the hour for RowFivehours is \"17\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "false"});
-#line 130
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table18, "Then ");
+#line 128
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table18, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 18:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 18:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1800()
+        public virtual void RowFiveHoursAt1800()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 18:00", ((string[])(null)));
-#line 134
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 18:00", ((string[])(null)));
+#line 132
 this.ScenarioSetup(scenarioInfo);
-#line 135
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 136
-testRunner.When("the hour for RowFivehours is \"18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 133
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 134
+ testRunner.When("the hour for RowFiveHours is \"18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table19 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -616,24 +616,24 @@ testRunner.When("the hour for RowFivehours is \"18\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "false"});
-#line 137
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table19, "Then ");
+#line 135
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table19, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 19:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 19:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt1900()
+        public virtual void RowFiveHoursAt1900()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 19:00", ((string[])(null)));
-#line 141
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 19:00", ((string[])(null)));
+#line 139
 this.ScenarioSetup(scenarioInfo);
-#line 142
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 143
-testRunner.When("the hour for RowFivehours is \"19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 140
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 141
+ testRunner.When("the hour for RowFiveHours is \"19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table20 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -645,24 +645,24 @@ testRunner.When("the hour for RowFivehours is \"19\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "false"});
-#line 144
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table20, "Then ");
+#line 142
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table20, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 20:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 20:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt2000()
+        public virtual void RowFiveHoursAt2000()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 20:00", ((string[])(null)));
-#line 149
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 20:00", ((string[])(null)));
+#line 146
 this.ScenarioSetup(scenarioInfo);
-#line 150
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 151
-testRunner.When("the hour for RowFivehours is \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 147
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 148
+ testRunner.When("the hour for RowFiveHours is \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -674,24 +674,24 @@ testRunner.When("the hour for RowFivehours is \"20\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "true"});
-#line 152
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table21, "Then ");
+#line 149
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table21, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 21:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 21:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt2100()
+        public virtual void RowFiveHoursAt2100()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 21:00", ((string[])(null)));
-#line 156
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 21:00", ((string[])(null)));
+#line 153
 this.ScenarioSetup(scenarioInfo);
-#line 157
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 158
-testRunner.When("the hour for RowFivehours is \"21\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 154
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 155
+ testRunner.When("the hour for RowFiveHours is \"21\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -703,24 +703,24 @@ testRunner.When("the hour for RowFivehours is \"21\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "true"});
-#line 159
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table22, "Then ");
+#line 156
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table22, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 22:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 22:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt2200()
+        public virtual void RowFiveHoursAt2200()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 22:00", ((string[])(null)));
-#line 163
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 22:00", ((string[])(null)));
+#line 160
 this.ScenarioSetup(scenarioInfo);
-#line 164
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 165
-testRunner.When("the hour for RowFivehours is \"22\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 161
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 162
+ testRunner.When("the hour for RowFiveHours is \"22\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -732,24 +732,24 @@ testRunner.When("the hour for RowFivehours is \"22\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "true"});
-#line 166
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table23, "Then ");
+#line 163
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table23, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 23:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 23:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt2300()
+        public virtual void RowFiveHoursAt2300()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 23:00", ((string[])(null)));
-#line 170
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 23:00", ((string[])(null)));
+#line 167
 this.ScenarioSetup(scenarioInfo);
-#line 171
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 172
-testRunner.When("the hour for RowFivehours is \"23\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 168
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 169
+ testRunner.When("the hour for RowFiveHours is \"23\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table24 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -761,24 +761,24 @@ testRunner.When("the hour for RowFivehours is \"23\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "true"});
-#line 173
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table24, "Then ");
+#line 170
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table24, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFivehours at 24:00")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("RowFiveHours at 24:00")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Row5Hours")]
-        public virtual void RowFivehoursAt2400()
+        public virtual void RowFiveHoursAt2400()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFivehours at 24:00", ((string[])(null)));
-#line 177
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowFiveHours at 24:00", ((string[])(null)));
+#line 174
 this.ScenarioSetup(scenarioInfo);
-#line 178
-testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 179
-testRunner.When("the hour for RowFivehours is \"24\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 175
+ testRunner.Given("I implement the first row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 176
+ testRunner.When("the hour for RowFiveHours is \"24\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table25 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -790,8 +790,8 @@ testRunner.When("the hour for RowFivehours is \"24\"", ((string)(null)), ((TechT
                         "true",
                         "true",
                         "true"});
-#line 180
-testRunner.Then("the following values for RowFivehours are valid", ((string)(null)), table25, "Then ");
+#line 177
+ testRunner.Then("the following values for RowFiveHours are valid", ((string)(null)), table25, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

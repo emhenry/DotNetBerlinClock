@@ -1,6 +1,6 @@
 ﻿using BerlinClock.Api.Rows;
+using BerlinClock.Extensions;
 using BerlinClock.Model;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
 namespace BerlinClock.Rows
@@ -18,26 +18,16 @@ namespace BerlinClock.Rows
             _row5Hours.OnRowChanged += (x) => _results = x;
         }
 
-        [When(@"the hour for RowFivehours is ""(.*)""")]
-        public void WhenTheHourForRowFivehoursIs(int p0)
+        [When(@"the hour for RowFiveHours is ""(.*)""")]
+        public void WhenTheHourForRowFiveHoursIs(int p0)
         {
             _row5Hours.UpdateValue(p0);
         }
 
-        [Then(@"the following values for RowFivehours are valid")]
-        public void ThenTheFollowingValuesForRowFivehoursAreValid(Table table)
+        [Then(@"the following values for RowFiveHours are valid")]
+        public void ThenTheFollowingValuesForRowFiveHoursAreValid(Table table)
         {
-            bool expectedLight1 = bool.Parse(table.Rows[0]["Light1"]);
-            bool expectedLight2 = bool.Parse(table.Rows[0]["Light2"]);
-            bool expectedLight3 = bool.Parse(table.Rows[0]["Light3"]);
-            bool expectedLight4 = bool.Parse(table.Rows[0]["Light4"]);
-
-            Assert.IsNotNull(_results);
-
-            Assert.AreEqual(expectedLight1, _results.Light1);
-            Assert.AreEqual(expectedLight2, _results.Light2);
-            Assert.AreEqual(expectedLight3, _results.Light3);
-            Assert.AreEqual(expectedLight4, _results.Light4);
+            table.AssertLights(_results);
         }
     }
 }

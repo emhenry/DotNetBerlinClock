@@ -31,8 +31,8 @@ namespace BerlinClock.Rows
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Row1Hour", "In order to avoid mistakes\r\nI check if the second row (RowOneHour) of the Berline" +
-                    "r clock", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Row1Hour", "In order to avoid mistakes\r\nI check the second row (RowOneHour) of the Berliner c" +
+                    "lock", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -77,12 +77,12 @@ namespace BerlinClock.Rows
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 00:00", new string[] {
                         "Row1hour"});
-#line 7
+#line 6
 this.ScenarioSetup(scenarioInfo);
+#line 7
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 8
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
-testRunner.When("the hour for RowOnehours is \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -94,8 +94,8 @@ testRunner.When("the hour for RowOnehours is \"0\"", ((string)(null)), ((TechTal
                         "false",
                         "false",
                         "false"});
-#line 10
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table1, "Then ");
+#line 9
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table1, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -106,12 +106,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0100()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 01:00", ((string[])(null)));
-#line 14
+#line 13
 this.ScenarioSetup(scenarioInfo);
+#line 14
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 16
-testRunner.When("the hour for RowOnehours is \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -123,8 +123,8 @@ testRunner.When("the hour for RowOnehours is \"1\"", ((string)(null)), ((TechTal
                         "false",
                         "false",
                         "false"});
-#line 17
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table2, "Then ");
+#line 16
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table2, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -135,12 +135,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0200()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 02:00", ((string[])(null)));
-#line 21
+#line 20
 this.ScenarioSetup(scenarioInfo);
+#line 21
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 22
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 23
-testRunner.When("the hour for RowOnehours is \"2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -152,8 +152,8 @@ testRunner.When("the hour for RowOnehours is \"2\"", ((string)(null)), ((TechTal
                         "true",
                         "false",
                         "false"});
-#line 24
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table3, "Then ");
+#line 23
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table3, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -164,12 +164,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0300()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 03:00", ((string[])(null)));
-#line 28
+#line 27
 this.ScenarioSetup(scenarioInfo);
+#line 28
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 29
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 30
-testRunner.When("the hour for RowOnehours is \"3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -181,8 +181,8 @@ testRunner.When("the hour for RowOnehours is \"3\"", ((string)(null)), ((TechTal
                         "true",
                         "true",
                         "false"});
-#line 31
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table4, "Then ");
+#line 30
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table4, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -193,12 +193,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0400()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 04:00", ((string[])(null)));
-#line 35
+#line 34
 this.ScenarioSetup(scenarioInfo);
+#line 35
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 36
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 37
-testRunner.When("the hour for RowOnehours is \"4\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"4\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -210,8 +210,8 @@ testRunner.When("the hour for RowOnehours is \"4\"", ((string)(null)), ((TechTal
                         "true",
                         "true",
                         "true"});
-#line 38
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table5, "Then ");
+#line 37
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table5, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -222,12 +222,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0500()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 05:00", ((string[])(null)));
-#line 42
+#line 41
 this.ScenarioSetup(scenarioInfo);
+#line 42
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 43
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 44
-testRunner.When("the hour for RowOnehours is \"5\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"5\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -239,8 +239,8 @@ testRunner.When("the hour for RowOnehours is \"5\"", ((string)(null)), ((TechTal
                         "false",
                         "false",
                         "false"});
-#line 45
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table6, "Then ");
+#line 44
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table6, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -251,12 +251,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0600()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 06:00", ((string[])(null)));
-#line 49
+#line 48
 this.ScenarioSetup(scenarioInfo);
+#line 49
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 50
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 51
-testRunner.When("the hour for RowOnehours is \"6\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"6\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -268,8 +268,8 @@ testRunner.When("the hour for RowOnehours is \"6\"", ((string)(null)), ((TechTal
                         "false",
                         "false",
                         "false"});
-#line 52
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table7, "Then ");
+#line 51
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table7, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -280,12 +280,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0700()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 07:00", ((string[])(null)));
-#line 56
+#line 55
 this.ScenarioSetup(scenarioInfo);
+#line 56
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 57
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 58
-testRunner.When("the hour for RowOnehours is \"7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -297,8 +297,8 @@ testRunner.When("the hour for RowOnehours is \"7\"", ((string)(null)), ((TechTal
                         "true",
                         "false",
                         "false"});
-#line 59
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table8, "Then ");
+#line 58
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table8, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -309,12 +309,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0800()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 08:00", ((string[])(null)));
-#line 63
+#line 62
 this.ScenarioSetup(scenarioInfo);
+#line 63
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 64
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 65
-testRunner.When("the hour for RowOnehours is \"8\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"8\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -326,8 +326,8 @@ testRunner.When("the hour for RowOnehours is \"8\"", ((string)(null)), ((TechTal
                         "true",
                         "true",
                         "false"});
-#line 66
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table9, "Then ");
+#line 65
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table9, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -338,12 +338,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt0900()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 09:00", ((string[])(null)));
-#line 70
+#line 69
 this.ScenarioSetup(scenarioInfo);
+#line 70
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 71
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 72
-testRunner.When("the hour for RowOnehours is \"9\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"9\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -355,8 +355,8 @@ testRunner.When("the hour for RowOnehours is \"9\"", ((string)(null)), ((TechTal
                         "true",
                         "true",
                         "true"});
-#line 73
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table10, "Then ");
+#line 72
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table10, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -367,12 +367,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1000()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 10:00", ((string[])(null)));
-#line 77
+#line 76
 this.ScenarioSetup(scenarioInfo);
+#line 77
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 78
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 79
-testRunner.When("the hour for RowOnehours is \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -384,8 +384,8 @@ testRunner.When("the hour for RowOnehours is \"10\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 80
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table11, "Then ");
+#line 79
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table11, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -396,12 +396,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1100()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 11:00", ((string[])(null)));
-#line 84
+#line 83
 this.ScenarioSetup(scenarioInfo);
+#line 84
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 85
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 86
-testRunner.When("the hour for RowOnehours is \"11\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"11\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -413,8 +413,8 @@ testRunner.When("the hour for RowOnehours is \"11\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 87
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table12, "Then ");
+#line 86
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table12, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -425,12 +425,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1200()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 12:00", ((string[])(null)));
-#line 91
+#line 90
 this.ScenarioSetup(scenarioInfo);
+#line 91
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 92
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 93
-testRunner.When("the hour for RowOnehours is \"12\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"12\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -442,8 +442,8 @@ testRunner.When("the hour for RowOnehours is \"12\"", ((string)(null)), ((TechTa
                         "true",
                         "false",
                         "false"});
-#line 94
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table13, "Then ");
+#line 93
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table13, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -454,12 +454,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1300()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 13:00", ((string[])(null)));
-#line 98
+#line 97
 this.ScenarioSetup(scenarioInfo);
+#line 98
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 99
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 100
-testRunner.When("the hour for RowOnehours is \"13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -471,8 +471,8 @@ testRunner.When("the hour for RowOnehours is \"13\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "false"});
-#line 101
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table14, "Then ");
+#line 100
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table14, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -483,12 +483,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1400()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 14:00", ((string[])(null)));
-#line 105
+#line 104
 this.ScenarioSetup(scenarioInfo);
+#line 105
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 106
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 107
-testRunner.When("the hour for RowOnehours is \"14\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the hour for RowOneHour is \"14\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -500,8 +500,8 @@ testRunner.When("the hour for RowOnehours is \"14\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "true"});
-#line 108
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table15, "Then ");
+#line 107
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table15, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -512,12 +512,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1500()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 15:00", ((string[])(null)));
-#line 113
+#line 111
 this.ScenarioSetup(scenarioInfo);
-#line 114
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 115
-testRunner.When("the hour for RowOnehours is \"15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 112
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 113
+ testRunner.When("the hour for RowOneHour is \"15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table16 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -529,8 +529,8 @@ testRunner.When("the hour for RowOnehours is \"15\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 116
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table16, "Then ");
+#line 114
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table16, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -541,12 +541,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1600()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 16:00", ((string[])(null)));
-#line 120
+#line 118
 this.ScenarioSetup(scenarioInfo);
-#line 121
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 122
-testRunner.When("the hour for RowOnehours is \"16\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 119
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 120
+ testRunner.When("the hour for RowOneHour is \"16\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table17 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -558,8 +558,8 @@ testRunner.When("the hour for RowOnehours is \"16\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 123
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table17, "Then ");
+#line 121
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table17, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -570,12 +570,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1700()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 17:00", ((string[])(null)));
-#line 127
+#line 125
 this.ScenarioSetup(scenarioInfo);
-#line 128
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 129
-testRunner.When("the hour for RowOnehours is \"17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 126
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 127
+ testRunner.When("the hour for RowOneHour is \"17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table18 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -587,8 +587,8 @@ testRunner.When("the hour for RowOnehours is \"17\"", ((string)(null)), ((TechTa
                         "true",
                         "false",
                         "false"});
-#line 130
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table18, "Then ");
+#line 128
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table18, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -599,12 +599,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1800()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 18:00", ((string[])(null)));
-#line 134
+#line 132
 this.ScenarioSetup(scenarioInfo);
-#line 135
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 136
-testRunner.When("the hour for RowOnehours is \"18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 133
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 134
+ testRunner.When("the hour for RowOneHour is \"18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table19 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -616,8 +616,8 @@ testRunner.When("the hour for RowOnehours is \"18\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "false"});
-#line 137
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table19, "Then ");
+#line 135
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table19, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -628,12 +628,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt1900()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 19:00", ((string[])(null)));
-#line 141
+#line 139
 this.ScenarioSetup(scenarioInfo);
-#line 142
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 143
-testRunner.When("the hour for RowOnehours is \"19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 140
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 141
+ testRunner.When("the hour for RowOneHour is \"19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table20 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -645,8 +645,8 @@ testRunner.When("the hour for RowOnehours is \"19\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "true"});
-#line 144
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table20, "Then ");
+#line 142
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table20, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -657,12 +657,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt2000()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 20:00", ((string[])(null)));
-#line 149
+#line 146
 this.ScenarioSetup(scenarioInfo);
-#line 150
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 151
-testRunner.When("the hour for RowOnehours is \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 147
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 148
+ testRunner.When("the hour for RowOneHour is \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -674,8 +674,8 @@ testRunner.When("the hour for RowOnehours is \"20\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 152
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table21, "Then ");
+#line 149
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table21, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -686,12 +686,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt2100()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 21:00", ((string[])(null)));
-#line 156
+#line 153
 this.ScenarioSetup(scenarioInfo);
-#line 157
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 158
-testRunner.When("the hour for RowOnehours is \"21\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 154
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 155
+ testRunner.When("the hour for RowOneHour is \"21\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -703,8 +703,8 @@ testRunner.When("the hour for RowOnehours is \"21\"", ((string)(null)), ((TechTa
                         "false",
                         "false",
                         "false"});
-#line 159
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table22, "Then ");
+#line 156
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table22, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -715,12 +715,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt2200()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 22:00", ((string[])(null)));
-#line 163
+#line 160
 this.ScenarioSetup(scenarioInfo);
-#line 164
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 165
-testRunner.When("the hour for RowOnehours is \"22\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 161
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 162
+ testRunner.When("the hour for RowOneHour is \"22\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -732,8 +732,8 @@ testRunner.When("the hour for RowOnehours is \"22\"", ((string)(null)), ((TechTa
                         "true",
                         "false",
                         "false"});
-#line 166
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table23, "Then ");
+#line 163
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table23, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -744,12 +744,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt2300()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 23:00", ((string[])(null)));
-#line 170
+#line 167
 this.ScenarioSetup(scenarioInfo);
-#line 171
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 172
-testRunner.When("the hour for RowOnehours is \"23\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 168
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 169
+ testRunner.When("the hour for RowOneHour is \"23\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table24 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -761,8 +761,8 @@ testRunner.When("the hour for RowOnehours is \"23\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "false"});
-#line 173
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table24, "Then ");
+#line 170
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table24, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -773,12 +773,12 @@ testRunner.Then("the following values for RowOnehours are valid", ((string)(null
         public virtual void RowOneHourAt2400()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RowOneHour at 24:00", ((string[])(null)));
-#line 177
+#line 174
 this.ScenarioSetup(scenarioInfo);
-#line 178
-testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 179
-testRunner.When("the hour for RowOnehours is \"24\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 175
+ testRunner.Given("I implement the second row of the Berlin clock", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 176
+ testRunner.When("the hour for RowOneHour is \"24\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table25 = new TechTalk.SpecFlow.Table(new string[] {
                         "Light1",
@@ -790,8 +790,8 @@ testRunner.When("the hour for RowOnehours is \"24\"", ((string)(null)), ((TechTa
                         "true",
                         "true",
                         "true"});
-#line 180
-testRunner.Then("the following values for RowOnehours are valid", ((string)(null)), table25, "Then ");
+#line 177
+ testRunner.Then("the following values for RowOneHour are valid", ((string)(null)), table25, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

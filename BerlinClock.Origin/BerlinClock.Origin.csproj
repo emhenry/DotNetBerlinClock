@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\TableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rows\Row1Hour.feature.cs">
       <AutoGen>True</AutoGen>
@@ -56,12 +57,24 @@
       <DependentUpon>Row1Hour.feature</DependentUpon>
     </Compile>
     <Compile Include="Rows\Row1HourSteps.cs" />
+    <Compile Include="Rows\Row1Minute.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Row1Minute.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Rows\Row1MinuteSteps.cs" />
     <Compile Include="Rows\Row5Hours.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Row5Hours.feature</DependentUpon>
     </Compile>
     <Compile Include="Rows\Row5HoursSteps.cs" />
+    <Compile Include="Rows\Row5Minutes.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Row5Minutes.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Rows\Row5MinutesSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -70,9 +83,17 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Row1Hour.feature.cs</LastGenOutput>
     </None>
+    <None Include="Rows\Row1Minute.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Row1Minute.feature.cs</LastGenOutput>
+    </None>
     <None Include="Rows\Row5Hours.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Row5Hours.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Rows\Row5Minutes.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Row5Minutes.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
