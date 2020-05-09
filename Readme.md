@@ -1,3 +1,18 @@
+# Link Git Hub
+Git Hub solution from Emmanuel Henry: https://github.com/emhenry/DotNetBerlinClock
+
+# Project composition
+- "BerlinClock.App" Starting project (WPF application).
+- "BerlinClock.Api" Library application programming interface.
+- "BerlinClock.Model" Library data transfert object.
+- "BerlinClock.Test" BDD tests library with SpecFlow.
+
+# Development
+- Visual Studio 2017.
+- .Net framework 4.6.1
+
+
+
 # The Berlin Clock
 
 The Berlin Uhr (Clock) is a rather strange way to show the time. On the top of the clock there is a yellow lamp that
@@ -30,5 +45,3 @@ Please ensure that you are familiar with our values in the instructions project.
 * transparency and feedback to support continuous learning
 * excellent testing that acts as documentation for the code
 * challenging boundaries where necessary
-
-Git Hub solution from Emmanuel Henry: https://github.com/emhenry/DotNetBerlinClock

@@ -75,6 +75,12 @@
       <DependentUpon>Row5Minutes.feature</DependentUpon>
     </Compile>
     <Compile Include="Rows\Row5MinutesSteps.cs" />
+    <Compile Include="SystemTimeApi\SystemTimeApi.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemTimeApi.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SystemTimeApi\SystemTimeApiSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -94,6 +100,10 @@
     <None Include="Rows\Row5Minutes.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Row5Minutes.feature.cs</LastGenOutput>
+    </None>
+    <None Include="SystemTimeApi\SystemTimeApi.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SystemTimeApi.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

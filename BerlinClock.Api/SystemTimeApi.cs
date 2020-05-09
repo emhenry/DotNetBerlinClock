@@ -22,7 +22,7 @@ namespace BerlinClock.Api
             _timeBetweenCustomAndNowTime = new TimeSpan(startHour - now.Hour, startMinute - now.Minute, 0);
             _timer = new Timer(TimerEverySecondCallback, null, 0, 1000);
             // Set the string time value            
-            this.OnShortTimeUpdate($"{startHour.ToString("00")}:{startMinute.ToString("00")}");
+            this.OnShortTimeUpdate(this.TimeString(startHour, startMinute));
         }
 
         public void Stop()
@@ -33,6 +33,9 @@ namespace BerlinClock.Api
 
         public void Dispose()
             => this.Stop();
+
+        private string TimeString(int hour, int minute)
+            => $"{hour.ToString("00")}:{minute.ToString("00")}";
 
         private void TimerEverySecondCallback(object obj)
         {
@@ -48,7 +51,7 @@ namespace BerlinClock.Api
             {
                 _actualMinute = time.Minute;
                 this.OnMinuteChanged?.Invoke(_actualMinute);
-                this.OnShortTimeUpdate(time.ToShortTimeString());
+                this.OnShortTimeUpdate(this.TimeString(time.Hour, time.Minute));
             }
 
             if (_actualHour != time.Hour)
