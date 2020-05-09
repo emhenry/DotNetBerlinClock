@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerlinClock.App", "BerlinCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerlinClock.Api", "BerlinClock.Api\BerlinClock.Api.csproj", "{300EE3DC-2563-44C8-B674-B4EB162EBC99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerlinClock.Test", "BerlinClock.Test\BerlinClock.Test.csproj", "{BB010298-22B4-409F-800A-12E80405C722}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerlinClock.Model", "BerlinClock.Model\BerlinClock.Model.csproj", "{DB09D515-F40F-4CB9-87C9-DE4CA573E24A}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{300EE3DC-2563-44C8-B674-B4EB162EBC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300EE3DC-2563-44C8-B674-B4EB162EBC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300EE3DC-2563-44C8-B674-B4EB162EBC99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB010298-22B4-409F-800A-12E80405C722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB010298-22B4-409F-800A-12E80405C722}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB010298-22B4-409F-800A-12E80405C722}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB010298-22B4-409F-800A-12E80405C722}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB09D515-F40F-4CB9-87C9-DE4CA573E24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB09D515-F40F-4CB9-87C9-DE4CA573E24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB09D515-F40F-4CB9-87C9-DE4CA573E24A}.Release|Any CPU.ActiveCfg = Release|Any CPU

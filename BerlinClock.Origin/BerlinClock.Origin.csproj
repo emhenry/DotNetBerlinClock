@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BerlinClock</RootNamespace>
     <AssemblyName>BerlinClock</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,31 +45,48 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="TechTalk.SpecFlow, Version=1.9.0.77, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
-      <HintPath>packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BDD\BerlinClockFeatureSteps.feature.cs">
+    <Compile Include="Rows\Row1Hour.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BerlinClockFeatureSteps.feature</DependentUpon>
+      <DependentUpon>Row1Hour.feature</DependentUpon>
     </Compile>
-    <Compile Include="Classes\ITimeConverter.cs" />
-    <Compile Include="Classes\TimeConverter.cs" />
+    <Compile Include="Rows\Row1HourSteps.cs" />
+    <Compile Include="Rows\Row5Hours.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Row5Hours.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Rows\Row5HoursSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="BDD\BerlinClockFeatureSteps.feature">
+    <None Include="Rows\Row1Hour.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>BerlinClockFeatureSteps.feature.cs</LastGenOutput>
+      <LastGenOutput>Row1Hour.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Rows\Row5Hours.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Row5Hours.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BerlinClock.Api\BerlinClock.Api.csproj">
+      <Project>{300ee3dc-2563-44c8-b674-b4eb162ebc99}</Project>
+      <Name>BerlinClock.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BerlinClock.Model\BerlinClock.Model.csproj">
+      <Project>{db09d515-f40f-4cb9-87c9-de4ca573e24a}</Project>
+      <Name>BerlinClock.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

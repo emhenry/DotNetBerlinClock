@@ -3,7 +3,7 @@ using System;
 
 namespace BerlinClock.Api.Rows
 {
-    public class Row11Lights : IRow11Lights
+    public abstract class Row11Lights : IRow11Lights
     {
         private int _actualValue = -1;
 
