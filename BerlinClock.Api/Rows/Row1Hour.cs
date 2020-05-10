@@ -2,6 +2,9 @@
 
 namespace BerlinClock.Api.Rows
 {
+    /// <summary>
+    /// Class to manage to second row of the Berlin clock
+    /// </summary>
     public class Row1Hour : Row4Lights
     {
         public override void UpdateValue(int hour)

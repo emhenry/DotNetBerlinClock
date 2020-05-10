@@ -6,6 +6,11 @@ namespace BerlinClock.Extensions
 {
     public static class TableExtensions
     {
+        /// <summary>
+        /// Assert the expected data table with a result of 4 lights row.
+        /// </summary>
+        /// <param name="table">Expected data</param>
+        /// <param name="row4LightsModel">Result of 4 lights row</param>
         public static void AssertLights(this Table table, Row4LightsModel row4LightsModel)
         {
             bool expectedLight1 = bool.Parse(table.Rows[0]["Light1"]);
@@ -21,6 +26,11 @@ namespace BerlinClock.Extensions
             Assert.AreEqual(expectedLight4, row4LightsModel.Light4);
         }
 
+        /// <summary>
+        /// Assert the expected data table with a result of 11 lights row.
+        /// </summary>
+        /// <param name="table">Expected data</param>
+        /// <param name="row11LightsModel">Result of 11 lights row</param>
         public static void AssertLights(this Table table, Row11LightsModel row11LightsModel)
         {
             bool expectedLight1 = bool.Parse(table.Rows[0]["Light1"]);

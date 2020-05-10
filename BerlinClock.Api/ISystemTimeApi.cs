@@ -2,6 +2,9 @@
 
 namespace BerlinClock.Api
 {
+    /// <summary>
+    /// Interface to manage the time's clock
+    /// </summary>
     public interface ISystemTimeApi : IDisposable
     {
         event Action<int> OnHourChanged;

@@ -3,6 +3,9 @@ using System;
 
 namespace BerlinClock.Api
 {
+    /// <summary>
+    /// Main interface to manage the entire Berlin clock
+    /// </summary>
     public interface IBerlinClockApi : IDisposable
     {
         event Action<bool> OnOrangeLightVisible;

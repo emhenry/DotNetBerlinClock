@@ -3,19 +3,32 @@ using System;
 
 namespace BerlinClock.Api.Rows
 {
+    /// <summary>
+    /// Base class to manage a row of 11 lights
+    /// </summary>
     public abstract class Row11Lights : IRow11Lights
     {
         private int _actualValue = -1;
 
         public event Action<Row11LightsModel> OnRowChanged;
 
+        /// <summary>
+        /// Method which trigger an event if the value changed.
+        /// If the value does not changed, nothing happens.
+        /// </summary>
+        /// <param name="value">Value</param>
         public virtual void UpdateValue(int value)
         {
             if (this.OnRowChanged != null && _actualValue != value)                            
                 this.OnRowChanged(ConvertValueToLights(value));            
         }
 
-        internal Row11LightsModel ConvertValueToLights(int numberOfLights)
+        /// <summary>
+        /// Create model of the lights state.
+        /// </summary>
+        /// <param name="numberOfLights">Number of lights to switch on</param>
+        /// <returns>Data model with the state of the lights</returns>
+        private Row11LightsModel ConvertValueToLights(int numberOfLights)
         {
             if (numberOfLights < 1)
                 return new Row11LightsModel();

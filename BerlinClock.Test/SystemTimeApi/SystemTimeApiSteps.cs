@@ -1,5 +1,6 @@
 ﻿using BerlinClock.Api;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Threading;
 using TechTalk.SpecFlow;
 
 namespace BerlinClock.SystemTimeApi
@@ -28,6 +29,8 @@ namespace BerlinClock.SystemTimeApi
         public void WhenIStartTheTheSystemTimerWithTheHourAndTheMinute(int p0, int p1)
         {
             _systemTimeApi.Start(p0, p1);
+            // We wait one second to be sure that the second has been ticked.
+            Thread.Sleep(1000);
         }
 
         [Then(@"the following values for the hour and the minute are")]
