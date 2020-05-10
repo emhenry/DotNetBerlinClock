@@ -82,7 +82,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When("I start the the System Timer with the hour \"0\" and the minute \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"0\" and the minute \"0\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -93,7 +93,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table1, "Then ");
 #line 13
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -109,7 +109,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 16
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 17
- testRunner.When("I start the the System Timer with the hour \"4\" and the minute \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"4\" and the minute \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -120,7 +120,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 18
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table2, "Then ");
 #line 21
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -136,7 +136,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 24
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 25
- testRunner.When("I start the the System Timer with the hour \"8\" and the minute \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"8\" and the minute \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -147,7 +147,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 26
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table3, "Then ");
 #line 29
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -163,7 +163,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 32
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 33
- testRunner.When("I start the the System Timer with the hour \"12\" and the minute \"30\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"12\" and the minute \"30\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -174,7 +174,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 34
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table4, "Then ");
 #line 37
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -190,7 +190,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 40
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 41
- testRunner.When("I start the the System Timer with the hour \"16\" and the minute \"40\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"16\" and the minute \"40\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -201,7 +201,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 42
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table5, "Then ");
 #line 45
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -217,7 +217,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 48
  testRunner.Given("I implement the class SystemTimeApi and I subscribe to the event OnHourChanged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 49
- testRunner.When("I start the the System Timer with the hour \"20\" and the minute \"50\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I start the System Timer with the hour \"20\" and the minute \"50\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "Hour",
@@ -228,7 +228,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 50
  testRunner.Then("the following values for the hour and the minute are", ((string)(null)), table6, "Then ");
 #line 53
- testRunner.Given("I dispose the resources the the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I dispose the resources the System Timer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }

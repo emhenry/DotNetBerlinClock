@@ -25,8 +25,8 @@ namespace BerlinClock.SystemTimeApi
             _systemTimeApi.OnHourChanged += (x) => _hour = x;
         }
 
-        [When(@"I start the the System Timer with the hour ""(.*)"" and the minute ""(.*)""")]
-        public void WhenIStartTheTheSystemTimerWithTheHourAndTheMinute(int p0, int p1)
+        [When(@"I start the System Timer with the hour ""(.*)"" and the minute ""(.*)""")]
+        public void WhenIStartTheSystemTimerWithTheHourAndTheMinute(int p0, int p1)
         {
             _systemTimeApi.Start(p0, p1);
             // We wait one second to be sure that the second has been ticked.
@@ -46,7 +46,7 @@ namespace BerlinClock.SystemTimeApi
             Assert.AreEqual(expectedShortDate, _shortDate);
         }        
 
-        [Given(@"I dispose the resources the the System Timer")]
+        [Given(@"I dispose the resources the System Timer")]
         public void GivenIDisposeTheResourcesTheTheSystemTimer()
         {
             _systemTimeApi.Dispose();

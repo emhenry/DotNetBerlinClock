@@ -45,6 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BerlinClockApi\BerlinClockApi.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BerlinClockApi.feature</DependentUpon>
+    </Compile>
+    <Compile Include="BerlinClockApi\BerlinClockApiSteps.cs" />
     <Compile Include="Extensions\TableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rows\Row1Hour.feature.cs">
@@ -80,6 +86,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="BerlinClockApi\BerlinClockApi.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BerlinClockApi.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="Rows\Row1Hour.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

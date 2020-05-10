@@ -27,7 +27,7 @@ namespace BerlinClock.Rows
         [Then(@"the following values for RowFiveHours are valid")]
         public void ThenTheFollowingValuesForRowFiveHoursAreValid(Table table)
         {
-            table.AssertLights(_results);
+            table.Rows[0].AssertLights(_results);
         }
     }
 }
